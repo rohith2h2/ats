@@ -1,0 +1,22 @@
+{
+  "name": "ats-resume-optimizer",
+  "version": "1.0.0",
+  "description": "A tool to optimize resumes for Applicant Tracking Systems",
+  "main": "index.js",
+  "scripts": {
+    "install:all": "npm install && cd client && npm install && cd ../server && npm install",
+    "start:client": "cd client && npm run dev",
+    "start:server": "cd server && npm run dev",
+    "start": "concurrently \"npm run start:server\" \"npm run start:client\"",
+    "build": "cd client && npm run build && cd ../server && npm run build",
+    "lint": "cd client && npm run lint && cd ../server && npm run lint"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "",
+  "license": "MIT"
+} 
