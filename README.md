@@ -71,4 +71,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - OpenAI for providing the GPT-4 API
 - Material-UI team for the excellent component library
-- All contributors and supporters of this project 
+- All contributors and supporters of this project
